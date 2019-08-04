@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <!-- CSS File -->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <!-- Google Fonts Link -->
+  <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Quicksand&display=swap" rel="stylesheet">
+      <!-- USE BOTTOM TO ADD FONT-FAMILIES TO CSS -->  
+
+     <!--   font-family: 'Nanum Gothic', sans-serif;
+            font-family: 'Quicksand', sans-serif;  
+    -->
+
+  <title>Gerson Portfolio</title>
+</head>
+
+<body>
+
+  <section class= "content"> <!-- for the footer-->
+    <!-- Header -->
+    <header class="header">
+        <!-- Main Header in Header. Let's header be more flexible when adjusting or when changing screen size-->
+        <div class="inner_header">
+            <!-- Title in Header (My Name) -->
+            <div class="name_container">
+                    <h1>Gerson Cabrera</h1> <!-- CHANGE THIS WHEN YOU CAN! JUST AN EXAMPLE-->
+            </div>
+                <!-- Navigation Bar -->
+                <ul class="navigation">
+                    <a href="index.html"><li>About</li></a>
+                    <a href="portfolio.html"><li>Portfolio</li></a>
+                    <a href="contact.html"><li>Contact</li></a>
+                </ul>
+        </div>
+      <!-- "Shadow" under Header -->
+      <hr id="bottom-header-line">
+    </header>
+
+    <div class="body_container">
+            <div id= "contact_header">
+              <h2>Contact Me</h2>
+              <p> Let's hang out. Play some video games or something.</p>
+            </div>
+
+            <div class="clearfix">
+            
+            <img id="contact_image" src="assets/images/contact-art-gaming.jpg" alt="Gerson Cabrera">
+              
+            <div class="contact_form">
+                <form>
+                  <label for="Name"> Full Name</label>
+                  <input type="text" id="name" name="FullName" placeholder=" ex. Johny Pippin Freaken Smith">
+                  <label for="Gamertag"> Gamer Tag</label>
+                  <input type="text" id="gamer_tag" name="gamertag" placeholder="ex. DismalEagle225">
+                  <label for="gamertag">Console</label>
+                        <select id="console" name="console">
+                            <option value="Xbox">Xbox</option>
+                            <option value="PS4">PS4</option>
+                            <option value="Steam">Steam</option>
+                            <option value="Minecraft">Minecraft</option>
+                         </select>
+                  <label for="Email">Email</label>
+                  <input type="text" id="email" name="Email" placeholder="ex. noob_master@gmail.com">
+                  <label for="message">Leave a Message</label>
+                  <textarea id="message" name="message" placeholder="Write something... ANTHING"></textarea>
+                  <input type="submit" value="Submit">
+                </form>
+            </div>
+            </div>
+  </section>
+
+</body>
+
+<footer>
+  <h4>Copyright ©</h4>
+</footer>
+</html>

@@ -1,0 +1,369 @@
+/* This means it applies to everything*/
+* {
+margin: 0;
+padding: 0;
+list-style: none;
+text-decoration: none;
+}
+
+/* -------------------------------- HEADER -----------------------------------*/
+.header {
+    width: 100%;
+    /*Change .navigation a{ margin-top } if you change height*/
+    height: 80px;
+    display: block;
+    background-color: #404040;
+}
+
+.inner_header {
+    /* change width: 90%; if you want header to move when screen size is adjusted */
+    width: 960px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;  
+}
+
+.name_container {
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+.name_container h1 {
+    color: white;
+    text-shadow: 1px 1px 1px #101010;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 32px;
+    font-weight: 200;
+}
+
+.navigation {
+    float: right;
+    height: 100%;
+}
+.navigation a{
+    /* Change Margin-Top when changing the .header { height }*/
+    margin-top: 12%;
+    height: 0;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+}
+
+/* removes right padding of nav bar */
+.navigation a:last-child{
+    padding-right: 0;
+}
+
+.navigation a li{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: white;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 16px;
+}
+
+.navigation a li:hover{
+    text-shadow:1px 1px 6px rgb(99, 201, 241), 1px 1px 6px rgb(43, 191, 211);
+}
+
+#bottom-header-line {
+  background-color: #141414;
+  border: 0;
+  height: 3px;
+}
+
+/* -------------------------------- HEADER -----------------------------------*/
+
+/* -------------------------------- BODY -----------------------------------*/
+
+#about_me_header {
+  padding: 25px;
+  padding-top: 0;
+  padding-left: 0;
+  font-size: 40px;
+}
+
+#bio-line {
+  height: 3px;
+  border: 0px;
+  background-color: #1c97c7;
+}
+/* THIS CLASS IS FOR ALL PAGES. CHANGE THIS IF YOU WANT TO CHANGE BODY ON ALL PAGEE */
+.body_container {
+    width: 960px;
+    margin: auto;
+    background-color:#eeeeee;
+}
+
+#bio_image {
+  float: left;
+  margin: 25px;
+  margin-bottom: 5px;
+  margin-left: 0;
+
+}
+
+#about-paragraphs {
+  margin-top: 25px;
+}
+
+
+#main_bio {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 24px;
+    font-size: 17px;
+    font-family: 'Nanum Gothic', sans-serif;
+    overflow: auto;
+}
+
+
+/* -------------------------------- BODY -----------------------------------*/
+
+/* ----------------------------- Portfolio ---------------------------------*/
+
+#portfolio_header {
+  margin-top: 20px;
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  padding-top: 20px;
+}
+
+#portfolio_header h1 {
+  font-size: 30px;
+}
+
+#portfolio_header p {
+  color: #1c97c7;
+  font-size: 17px;
+}
+
+.photo_grid {
+  margin: 0 auto;
+  padding: 20px;
+  padding-top: 25px;
+  float: left;
+}
+
+td {
+  padding: 10px;
+}
+
+#bear {
+  position: relative;
+  bottom: 10.5px;
+}
+#bear h3 {
+  text-align: center;
+  color: white;
+  background-color: #1c97c7;
+  border: #0f536e solid;
+  border-width: 1px;
+  width: 270px;
+  position: absolute;
+  bottom: 40px;
+  padding: 4px;
+  font-family: 'Quicksand', sans-serif; 
+}
+
+#gamer {
+  position: relative;
+  bottom: 10.5px;
+}
+#gamer h3 {
+  text-align: center;
+  color: white;
+  background-color: #1c97c7;
+  border: #0f536e solid;
+  border-width: 1px;
+  width: 270px;
+  position: absolute;
+  bottom: 40px;
+  padding: 4px;
+  font-family: 'Quicksand', sans-serif; 
+}
+
+#money {
+  position: relative;
+  bottom: 10.5px;
+}
+#money h3 {
+  text-align: center;
+  color: white;
+  background-color: #1c97c7;
+  border: #0f536e solid;
+  border-width: 1px;
+  width: 270px;
+  position: absolute;
+  bottom: 40px;
+  padding: 4px;
+  font-family: 'Quicksand', sans-serif; 
+}
+
+#bitcoin {
+  position: relative;
+  bottom: 10.5px;
+}
+#bitcoin h3 {
+  text-align: center;
+  color: white;
+  background-color: #1c97c7;
+  border: #0f536e solid;
+  border-width: 1px;
+  width: 270px;
+  position: absolute;
+  bottom: 40px;
+  padding: 4px;
+  font-family: 'Quicksand', sans-serif; 
+}
+
+#gun {
+  position: relative;
+  bottom: 10.5px;
+}
+#gun h3 {
+  text-align: center;
+  color: white;
+  background-color: #1c97c7;
+  border: #0f536e solid;
+  border-width: 1px;
+  width: 270px;
+  position: absolute;
+  bottom: 40px;
+  padding: 4px;
+  font-family: 'Quicksand', sans-serif; 
+}
+
+#ultra {
+  position: relative;
+  bottom: 10.5px;
+}
+#ultra h3 {
+  text-align: center;
+  color: white;
+  background-color: #1c97c7;
+  border: #0f536e solid;
+  border-width: 1px;
+  width: 270px;
+  position: absolute;
+  bottom: 40px;
+  padding: 4px;
+  font-family: 'Quicksand', sans-serif; 
+}
+
+.clear {
+  clear: both;
+}
+
+/* ----------------------------- Portfolio ---------------------------------*/
+
+/* ------------------------------ Contact ----------------------------------*/
+
+
+
+/* ------------------------------ Contact ----------------------------------*/
+
+#contact_header {
+    margin-top: 20px;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    padding: 15px;
+    padding-bottom: 0;
+}
+
+#contact_header h2 {
+  font-size: 30px;
+}
+
+#contact_header p {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 17px;
+  text-align: center;
+  color: #1c97c7;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 15px;
+    margin-bottom: 16px;
+    font-family: 'Quicksand', sans-serif;
+}
+  /* Submit Button */
+  input[type=submit] {
+    background-color: #1c97c7;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  /* Color change for Submit Button */
+  input[type=submit]:hover {
+    background-color: #138cbb;
+  }
+  
+  /* Style the container/contact section */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+
+  }
+
+  #contact_image {
+      float:left;
+      margin: 20px;
+      margin-left: 18px;
+  }
+  
+  .contact_form {
+    float: left;
+    width: 50%;
+    margin-top: 20px;
+    padding:0;
+    font-family: 'Quicksand', sans-serif;
+  }
+  
+  /* Clear floats after the columns */
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* ----------------- Contact ------------- */
+
+  html {
+    height: 100%;
+  }
+
+  body {
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  .content {
+    flex:1;
+  }
+
+  footer {
+    background-color: #404040;
+    color: white;
+    height: 40px;
+    text-align: center;
+  }
+
+  footer h4 {
+    padding: 8px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 12px;
+  }
